@@ -6,12 +6,9 @@ source ./error.sh
 case "$1" in
   --help|-h)
     echo "Dostępne opcje:"
-    echo "--help    : pomoc"
-    echo "--logs    : logi"
-    echo "--date    : data"
-    echo "--init    : inicjalizacja"
-    echo "--error, -e [n]"
-
+    echo "--help, -h    : pomoc"
+    echo "--logs, -l    : logi"
+    echo "--date, -d    : data"
 
     ;;
     
@@ -32,4 +29,7 @@ case "$1" in
   *)
   echo "Nieznana opcja"
   ;;
+
+  *)
+
 esac
